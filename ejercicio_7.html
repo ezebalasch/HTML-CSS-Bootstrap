@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ejercicio_7css.css">
+</head>
+
+<body>
+    <section>
+        <div>
+            <form action="/controlador-registro" method="POST" class="form-registro">
+                <h1>Registrar un usuario</h1>
+                <div>
+                    <div>Nombre de usuario</div>
+                    <label for="nombre"></label>
+                    <input type="text" name="nombre" id="nombre_usuario">
+                </div>
+                <div>
+                    <div>Contraseña del usuario</div>
+                    <label for="password"></label>
+                    <input type="password" name="password" id="contrasenia">
+                </div>
+                <div>
+                    <div>Edad del usuario</div>
+                    <label for="edad"></label>
+                    <input type="number" min="12" max="120" name="edad" id="edad">
+                </div>
+                <div>
+                    <div>Fecha de nacimiento del usuario</div>
+                    <label for="fecha"></label>
+                    <input type="date" name="fecha" id="fecha">
+                </div>
+                <div>
+                    <div>Sexo del usuario</div>
+                    <label><input type="radio" name="sexo" value="f">
+                        Femenino</label><br>
+                    <label><input type="radio" name="sexo" value="m">
+                        Masculino</label><br>
+                    <label><input type="radio" name="sexo" value="x">
+                        Prefiero no decir</label><br>
+
+                </div>
+                <div>
+                    <div>País de nacimiento del usuario</div>
+                    <label for="pais"></label>
+                    <select name="pais" id="pais">
+                        <option value="A">Argentina</option>
+                        <option value="C">Chile</option>
+                        <option value="B">Brasil</option>
+                    </select>
+                </div>
+                <button type="submit">Enviar</button>
+                <button type="reset">Borrar</button>
+            </form>
+        </div>
+    </section>
+
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+h1{
+    font-family: sans-serif;    
+    text-align: center;
+}
+h2{
+    font-family: sans-serif;    
+    text-align: center;
+}
+div{
+    font-family: initial;
+    text-align: left;
+    color: darkred;
+}
+body{
+    background-color: rgb(250, 233, 211);
+}
