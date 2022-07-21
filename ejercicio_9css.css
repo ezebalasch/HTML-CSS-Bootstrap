@@ -1,0 +1,46 @@
+h1{
+    color: rgb(60, 197, 197);
+}
+#id1{
+    font-weight: bold;
+}
+#id2{
+    color: yellow;
+}
+h2{
+    color: blue;
+}
+.redone{
+    color: red;
+}
+#id3{
+    color: blue;
+}
+#id4{
+    color: blueviolet;
+}
+table,td,tr,th{
+    border: 1px solid black;
+    border-spacing: 0px;
+    border-collapse: collapse;
+}
+.amarillo{
+    color: rgb(255, 255, 27);
+    font-weight: bold;
+}
+.verde{
+    color: green;
+}
+.rojo{
+    color: red;
+    font-weight: bold;
+}
+.musgo{
+    color: rgb(138, 214, 7);
+}
+a{
+    color: green;
+}
+#especial{
+    color: palevioletred;
+}
